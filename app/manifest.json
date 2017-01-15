@@ -42,7 +42,6 @@
     "default_popup": "popup.html"
   },
   "web_accessible_resources": [
-    "templates/bing.html",
     "bower_components/angular/*"
   ]
 }
