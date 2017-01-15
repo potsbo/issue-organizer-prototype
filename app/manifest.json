@@ -27,7 +27,7 @@
       "js": [
         "bower_components/angular/angular.min.js",
         "scripts/controllers/githubHeader.js",
-        "scripts/contentscript.js"
+        "scripts/contentscripts/githubHeader.js"
       ],
       "run_at": "document_end",
       "all_frames": false
