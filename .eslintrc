@@ -126,3 +126,4 @@ globals:
   context: false
   it: false
   chrome: false
+  WebSocket: false

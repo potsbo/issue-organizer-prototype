@@ -47,6 +47,6 @@
     }
   },
   "dependencies": {
-    "eslint": "3.3.0"
+    "eslint": "3.13.1"
   }
 }
