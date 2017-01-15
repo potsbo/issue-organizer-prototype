@@ -7,7 +7,7 @@ window.addEventListener('load', () => {
     html.setAttribute('ng-csp', '')
 
     const header = document.querySelector('.header')
-    header.setAttribute('ng-controller', 'MainController')
+    header.setAttribute('ng-controller', 'GitHubHeaderController')
 
     const types = ['pulls', 'issues']
     types.forEach((type) => {
