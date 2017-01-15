@@ -1,6 +1,7 @@
 'use strict'
 
 window.addEventListener('load', () => {
+  // Make pages on GitHub an angular app
   const html = document.querySelector('html')
   html.setAttribute('ng-app', '')
   html.setAttribute('ng-csp', '')
