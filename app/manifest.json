@@ -26,6 +26,7 @@
         "https://*/*"
       ],
       "js": [
+        "bower_components/angular/angular.min.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",
@@ -39,5 +40,9 @@
     },
     "default_title": "issue organizer prototype",
     "default_popup": "popup.html"
-  }
+  },
+  "web_accessible_resources": [
+    "templates/bing.html",
+    "bower_components/angular/*"
+  ]
 }
