@@ -128,10 +128,11 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'))
 })
 
-gulp.task('package', () => {
+gulp.task('package', ['default'], () => {
   const manifest = require('./dist/manifest.json')
+  const name = manifest.name.toLowerCase().split(' ').join('-')
   return gulp.src('dist/**')
-      .pipe($.zip('issue organizer prototype-' + manifest.version + '.zip'))
+      .pipe($.zip(`${name}-${manifest.version}.zip`))
       .pipe(gulp.dest('package'))
 })
 
