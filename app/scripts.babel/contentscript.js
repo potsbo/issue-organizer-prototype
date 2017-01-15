@@ -15,5 +15,5 @@ window.addEventListener('load', () => {
     item.setAttribute('href', `/${type}{{ query.${type} }}`)
   })
 
-  angular.bootstrap(document.querySelector('html'), ['GitHubIssueOrganizer'], [])
+  angular.bootstrap(html, ['GitHubIssueOrganizer'], [])
 })
