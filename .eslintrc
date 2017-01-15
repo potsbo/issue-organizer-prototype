@@ -127,3 +127,6 @@ globals:
   it: false
   chrome: false
   WebSocket: false
+  window: false
+  angular: false
+  document: false
