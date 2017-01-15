@@ -1372,6 +1372,44 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
+eslint@3.2.1:
+  version "3.2.1"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-3.2.1.tgz#cec49fdea09e2f3be2e1b120054f069390d9f2b9"
+  dependencies:
+    chalk "^1.1.3"
+    concat-stream "^1.4.6"
+    debug "^2.1.1"
+    doctrine "^1.2.2"
+    escope "^3.6.0"
+    espree "^3.1.6"
+    estraverse "^4.2.0"
+    esutils "^2.0.2"
+    file-entry-cache "1.2.4"
+    flat-cache "1.0.10"
+    glob "^7.0.3"
+    globals "^9.2.0"
+    ignore "^3.1.2"
+    imurmurhash "^0.1.4"
+    inquirer "^0.12.0"
+    is-my-json-valid "^2.10.0"
+    is-resolvable "^1.0.0"
+    js-yaml "^3.5.1"
+    json-stable-stringify "^1.0.0"
+    levn "^0.3.0"
+    lodash "^4.0.0"
+    mkdirp "^0.5.0"
+    optionator "^0.8.1"
+    path-is-inside "^1.0.1"
+    pluralize "^1.2.1"
+    progress "^1.1.8"
+    require-uncached "^1.0.2"
+    shelljs "^0.6.0"
+    strip-bom "^3.0.0"
+    strip-json-comments "~1.0.1"
+    table "^3.7.8"
+    text-table "~0.2.0"
+    user-home "^2.0.0"
+
 eslint@^2.10.0:
   version "2.13.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-2.13.1.tgz#e4cc8fa0f009fb829aaae23855a29360be1f6c11"
@@ -1555,6 +1593,13 @@ figures@^1.3.5:
     escape-string-regexp "^1.0.5"
     object-assign "^4.1.0"
 
+file-entry-cache@1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-1.2.4.tgz#9a586072c69365a7ef7ec72a7c2b9046de091e9c"
+  dependencies:
+    flat-cache "^1.0.9"
+    object-assign "^4.0.1"
+
 file-entry-cache@^1.1.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/file-entry-cache/-/file-entry-cache-1.3.1.tgz#44c61ea607ae4be9c1402f41f44270cbfe334ff8"
@@ -1641,7 +1686,16 @@ flagged-respawn@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/flagged-respawn/-/flagged-respawn-0.3.2.tgz#ff191eddcd7088a675b2610fffc976be9b8074b5"
 
-flat-cache@^1.2.1:
+flat-cache@1.0.10:
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-1.0.10.tgz#73d6df4a28502160a05e059544a6aeeae8b0047a"
+  dependencies:
+    del "^2.0.2"
+    graceful-fs "^4.1.2"
+    read-json-sync "^1.1.0"
+    write "^0.2.1"
+
+flat-cache@^1.0.9, flat-cache@^1.2.1:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-1.2.2.tgz#fa86714e72c21db88601761ecf2f555d1abc6b96"
   dependencies:
@@ -3682,6 +3736,12 @@ read-all-stream@^3.0.0:
     pinkie-promise "^2.0.0"
     readable-stream "^2.0.0"
 
+read-json-sync@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/read-json-sync/-/read-json-sync-1.1.1.tgz#43c669ae864aae308dfbbb2721a67e295ec8fff6"
+  dependencies:
+    graceful-fs "^4.1.2"
+
 read-pkg-up@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/read-pkg-up/-/read-pkg-up-1.0.1.tgz#9d63c13276c065918d57f002a57f40a1b643fb02"
@@ -4190,6 +4250,10 @@ strip-bom@^1.0.0:
   dependencies:
     first-chunk-stream "^1.0.0"
     is-utf8 "^0.2.0"
+
+strip-bom@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-3.0.0.tgz#2334c18e9c759f7bdd56fdef7e9ae3d588e68ed3"
 
 strip-dirs@^1.0.0:
   version "1.1.1"
