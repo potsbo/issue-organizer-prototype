@@ -22,8 +22,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://github.com/*"
       ],
       "js": [
         "bower_components/angular/angular.min.js",
