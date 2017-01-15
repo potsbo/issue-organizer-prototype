@@ -125,3 +125,4 @@ globals:
   beforeEach: false
   context: false
   it: false
+  chrome: false
