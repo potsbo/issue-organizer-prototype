@@ -26,7 +26,7 @@
       ],
       "js": [
         "bower_components/angular/angular.min.js",
-        "scripts/controllers/github.js",
+        "scripts/controllers/githubHeader.js",
         "scripts/contentscript.js"
       ],
       "run_at": "document_end",
